@@ -58,8 +58,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     await update.message.reply_text(
-        "سلام ❤️.\n"
-        "پیام ناشناسی که میخوای بفرستی رو اینجا تایپ کن"
+    "درود دوست من 👋\n"
+    "هر چی دلت میخواد به صورت ناشناس به من بگو..!"
     )
 
 async def user_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
